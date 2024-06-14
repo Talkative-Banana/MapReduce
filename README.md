@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO --> <br /> <p align="center"> <a href="https://github.com/Talkative-Banana/MapReduce"> <img src="logo/Hadoop_logo.svg" alt="Logo"> </a>
 
-<!-- ABOUT-THE-PROJECT -->
+<!-- ABOUT THE PROJECT -->
 # MapReduce
 This Project focuses on Implementing MapReduce framework from scratch to perform K-means clustering on a given dataset in a distributed manner like Hadoop does.
 
