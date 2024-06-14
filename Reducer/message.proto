@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+package message;
+
+service Message {
+    rpc ServeMapper(RequestMapper) returns (ResponseMapper) {}
+    rpc ServeReducer(RequestReducer) returns (ResponseReducer) {}
+}
+
+message FloatList {
+  repeated float values = 1;
+}
+
+message FloatListList {
+  repeated FloatList lists = 1;
+}
+
+message RequestMapper {
+    repeated int32 indexes = 1;
+    FloatListList cords = 2;
+    int32 reducers = 3;
+}
+
+message ResponseMapper {
+    int32 response = 1;
+}
+
+message RequestReducer {
+    int32 mappers = 1;
+}
+
+message ResponseReducer {
+    int32 response = 1;
+    FloatListList entries = 2;
+}
