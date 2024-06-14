@@ -1,19 +1,19 @@
 <!-- PROJECT LOGO --> <br /> <p align="center"> <a href="https://github.com/Talkative-Banana/MapReduce"> <img src="logo/Hadoop_logo.svg" alt="Logo"> </a>
 
-# MapReduce
 <!-- ABOUT THE PROJECT -->
+# MapReduce
 This Project focuses on Implementing MapReduce framework from scratch to perform K-means clustering on a given dataset in a distributed manner like Hadoop does.
 
 MapReduce is a programming model and an associated implementation for processing and generating large data sets. Users specify a map function that processes a key/value pair to generate a set of intermediate key/value pairs, and a reduce function that merges all intermediate values associated with the same intermediate key. Many real world tasks are expressible in this model, as shown in the paper.
 
-### Built With
 <!-- BUILT WITH -->
+### Built With
 * [Python](https://www.python.org/)
 * [gRPC](https://grpc.io/)
 * [Google Cloud](https://cloud.google.com/)
 
-### Table of Contents
 <!-- TABLE OF CONTENTS -->
+### Table of Contents
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
@@ -24,7 +24,7 @@ MapReduce is a programming model and an associated implementation for processing
       </ul>
     </li>
     <li><a href="#documentation">Documentation</a></li>
-    <li><a href="implementation">Implementation</a></li>
+    <li><a href="#implementation">Implementation</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -40,8 +40,8 @@ MapReduce is a programming model and an associated implementation for processing
   </ol>
 </details>
 
-## Documentation
 <!-- DOCUMENTATION -->
+## Documentation
 ### Storage and Database Options
 
 The K-means algorithm is an iterative algorithm that partitions a dataset into K clusters.
@@ -81,8 +81,8 @@ The K-means algorithm is an iterative algorithm that partitions a dataset into K
 
 Mappers, Reducers, and Master form a cluster.
 
-## Implementation:
 <!-- IMPLEMENTATION -->
+## Implementation:
 * The master stores the IP addresses and ports of all the nodes (mappers and reducers).
 
 ### Master: 
@@ -141,19 +141,19 @@ Mappers, Reducers, and Master form a cluster.
   
 For any other requirements refer [Documentation](https://github.com/Talkative-Banana/MapReduce/logo/Document.html)
 
-## Getting Started
 <!-- GETTING-STARTED -->
+## Getting Started
 To get a local copy up and running follow these simple steps.
 
-### Prerequisites
 <!-- PREREQUISITES -->
+### Prerequisites
 * Basic understanding of Python (Tutorials: [English](https://youtu.be/_uQrJ0TkZlc) | [Hindi](https://youtu.be/gfDE2a7MKjA))
 * Python installed on your computer ([Download from Here](https://www.python.org/downloads/))
 * GitHub Account ([Sign Up](https://github.com/))
 * gRPC ([Download from here](https://grpc.io/))
 
-### Installation
 <!-- INSTALLATION -->
+### Installation
 * Clone the repo
 
         git clone https://github.com/Talkative-Banana/MapReduce.git
@@ -161,8 +161,9 @@ To get a local copy up and running follow these simple steps.
         run the sh file with asked parameters denoting # mappers, # reducers.
 
 For MacOS or Windows you need to either run each mapper and reducer manually or change the build file to run all of them locally.
-## Deployment
+
 <!-- DEPLOYMENT -->
+## Deployment
 ### Remote Deployment
 
 * Set up google cloud or docker containers and update the firewall settings to accept and send remote request.
@@ -174,13 +175,13 @@ For MacOS or Windows you need to either run each mapper and reducer manually or 
 ### Local Deployment
 
 * Simply grant permission to sh file and run it with required parameters.
-## Roadmap
+
 <!-- ROADMAP -->
+## Roadmap
 - Clone the repo and open it in suitable IDE for complete project source code. You can also fix the issues and hence contribute.
 
-
-## Contributing
 <!-- CONTRIBUTING -->
+## Contributing
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
 
 1. Fork the Project
@@ -188,11 +189,13 @@ Contributions are what make the open source community such an amazing place to b
 3. Commit your Changes
 4. Push to the Branch
 5. Open a Pull Request
-## Contact
+
 <!-- CONTACT -->
+## Contact
 Email ID - lakshay21059@iiitd.ac.in
-## Acknowledgements
+
 <!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
 Lakshay Bansal lakshay21059@iiitd.ac.in
 
 
